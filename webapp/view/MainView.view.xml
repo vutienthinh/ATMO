@@ -1,0 +1,108 @@
+<mvc:View controllerName="ATMO.ATMO.controller.MainView" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml"
+	displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns:u="sap.ui.unified">
+	<App id="idAppControl">
+		<pages>
+			<Page showHeader="false">
+				<content>
+					<Title text="Standard" titleStyle="H2" width="auto" textAlign="Begin" visible="true" wrapping="false"
+						class="sapUiSmallMarginTop sapUiSmallMarginBottom sapUiLargeMarginBegin"/>
+					<HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div"
+						visible="true" displayInline="false" class="sapUiTinyMarginBottom sapUiLargeMarginBegin">
+						<items>
+							<Title text="Source System:" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false" class="sapUiTinyMarginEnd"/>
+							<ComboBox selectedKey="Vault" editable="true" enabled="true" visible="true" width="275px" valueState="None" maxWidth="100%">
+								<items>
+									<core:Item text="Vault" enabled="true" key="Vault"/>
+									<core:Item text="..." enabled="true" key="..."/>
+									<core:Item text="..." enabled="true" key="..."/>
+								</items>
+							</ComboBox>
+						</items>
+					</HBox>
+					<HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div"
+						visible="true" displayInline="false" class="sapUiSmallMarginBottom sapUiLargeMarginBegin">
+						<items>
+							<Title text="Assembly:" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false" class="sapUiLargeMarginEnd"/>
+							<SearchField placeholder="Assembly MaterialNumber" showSearchButton="false" visible="true" width="275px"/>
+							<Button text="Search" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+								class="sapUiSmallMarginBegin"/>
+						</items>
+					</HBox>
+					<!--<table:TreeTable id="TreeTableBasic" rows="{path:'/BCMApproverOverviewSet'}" selectionMode="None" ariaLabelledBy="title">-->
+					<!--	<table:columns>-->
+					<!--		<table:Column >-->
+					<!--			<Label text="ProjectID"/>-->
+					<!--			<table:template>-->
+					<!--				<Text text="{ProjectID}" wrapping="false"/>-->
+					<!--			</table:template>-->
+					<!--		</table:Column>-->
+					<!--		<table:Column >-->
+					<!--			<Label text="Description"/>-->
+					<!--			<table:template>-->
+					<!--				<Text text="{Description}" wrapping="false"/>-->
+					<!--			</table:template>-->
+					<!--		</table:Column>-->
+					<!--		<table:Column >-->
+					<!--			<Label text="Valid From"/>-->
+					<!--			<table:template>-->
+					<!--				<Text-->
+					<!--					text="{ path: 'ValidFrom', type: 'sap.ui.model.odata.type.DateTime',formatOptions: { pattern: 'MM/dd/yyyy', source: { pattern: 'MM/dd/yyyy' },UTC: true }}"/>-->
+					<!--			</table:template>-->
+					<!--		</table:Column>-->
+					<!--		<table:Column >-->
+					<!--			<Label text="Valid To"/>-->
+					<!--			<table:template>-->
+					<!--				<Text-->
+					<!--					text="{ path: 'ValidTo', type: 'sap.ui.model.odata.type.DateTime',formatOptions: { pattern: 'MM/dd/yyyy', source: { pattern: 'MM/dd/yyyy' },UTC: true }}"/>-->
+					<!--			</table:template>-->
+					<!--		</table:Column>-->
+					<!--	</table:columns>-->
+					<!--</table:TreeTable>-->
+					<!--<Table id="table" items="{path: '/BCMApproverOverviewSet', sorter : { path: 'ProjectID', group : true}}"-->
+					<!--	updateFinished="onUpdateFinished" growing="true" growingThreshold="15" growingScrollToLoad="false">-->
+					<!--	<columns>-->
+					<!--		<Column>-->
+					<!--			<Text text="System"/>-->
+					<!--		</Column>-->
+					<!--		<Column minScreenWidth="Tablet" demandPopin="true">-->
+					<!--			<Text text="User Name"/></Column>-->
+					<!--		<Column minScreenWidth="Tablet" demandPopin="true">-->
+					<!--			<Text text="First Name"/></Column>-->
+					<!--	</columns>-->
+					<!--	<items>-->
+					<!--		<ColumnListItem >-->
+					<!--			<cells >-->
+					<!--				<Text text="{ProjectID}"/>-->
+					<!--				<Text text="{Description}"/>-->
+					<!--				<Text text="{Station}"/>-->
+					<!--			</cells>-->
+					<!--		</ColumnListItem>-->
+					<!--	</items>-->
+					<!--</Table>-->
+					<table:Table rows="{/BCMApproverOverviewSet}" title="Products" selectionMode="None"  >
+						<table:columns>
+							<table:Column >
+								<Label text="Product Name"/>
+								<table:template>
+									<Text text="{ProjectID}" wrapping="false"/>
+								</table:template>
+							</table:Column>
+							<table:Column >
+								<Label text="Product Id"/>
+								<table:template>
+									<Input value="{Description}"/>
+								</table:template>
+							</table:Column>
+							<table:Column  hAlign="End">
+								<Label text="Quantity"/>
+								<table:template>
+									<Label text="{Station}"/>
+								</table:template>
+							</table:Column>
+						</table:columns>
+					</table:Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

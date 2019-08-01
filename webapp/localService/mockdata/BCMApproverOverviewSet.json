@@ -1,0 +1,111 @@
+[{
+	"ProjectID": "ProjectID 1",
+	"Description": "Description 1",
+	"Station": "Station 1",
+	"Status": "Status 1",
+	"ValidFrom": "/Date(967798636000)/",
+	"ValidTo": "/Date(1114246636000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%201',Description='Description%201')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 2",
+	"Description": "Description 2",
+	"Station": "Station 2",
+	"Status": "Status 2",
+	"ValidFrom": "/Date(1264150636000)/",
+	"ValidTo": "/Date(1509181036000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%202',Description='Description%202')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 3",
+	"Description": "Description 3",
+	"Station": "Station 3",
+	"Status": "Status 3",
+	"ValidFrom": "/Date(1149152236000)/",
+	"ValidTo": "/Date(1224665836000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%203',Description='Description%203')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 2",
+	"Description": "Description 4",
+	"Station": "Station 4",
+	"Status": "Status 4",
+	"ValidFrom": "/Date(1190105836000)/",
+	"ValidTo": "/Date(1157705836000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%204',Description='Description%204')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 3",
+	"Description": "Description 5",
+	"Station": "Station 5",
+	"Status": "Status 5",
+	"ValidFrom": "/Date(1139216236000)/",
+	"ValidTo": "/Date(1405328236000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%205',Description='Description%205')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 2",
+	"Description": "Description 6",
+	"Station": "Station 6",
+	"Status": "Status 6",
+	"ValidFrom": "/Date(1301389036000)/",
+	"ValidTo": "/Date(1516093036000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%206',Description='Description%206')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 1",
+	"Description": "Description 7",
+	"Station": "Station 7",
+	"Status": "Status 7",
+	"ValidFrom": "/Date(1274173036000)/",
+	"ValidTo": "/Date(990262636000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%207',Description='Description%207')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 3",
+	"Description": "Description 8",
+	"Station": "Station 8",
+	"Status": "Status 8",
+	"ValidFrom": "/Date(1532336236000)/",
+	"ValidTo": "/Date(1210150636000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%208',Description='Description%208')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 4",
+	"Description": "Description 9",
+	"Station": "Station 9",
+	"Status": "Status 9",
+	"ValidFrom": "/Date(1539939436000)/",
+	"ValidTo": "/Date(1555491436000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%209',Description='Description%209')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}, {
+	"ProjectID": "ProjectID 11",
+	"Description": "Description 10",
+	"Station": "Station 10",
+	"Status": "Status 10",
+	"ValidFrom": "/Date(1039424236000)/",
+	"ValidTo": "/Date(1239353836000)/",
+	"__metadata": {
+		"uri": "BCMApproverOverviewSet(ProjectID='ProjectID%2010',Description='Description%2010')",
+		"type": "RB04.YC1_FI_BCM_APPROVERVIEW_SRV.BCMApproverOverview"
+	}
+}]
